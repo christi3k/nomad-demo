@@ -1,0 +1,14 @@
+version: "2"
+virtualmachines:
+- name: gamma
+  image: instruqt-hashicorp/nomad-087
+  shell: /bin/bash
+  machine_type: g1-small
+- name: alpha
+  image: instruqt-hashicorp/nomad-087
+  shell: /bin/bash
+  machine_type: g1-small
+- name: beta
+  image: instruqt-hashicorp/nomad-087
+  shell: /bin/bash
+  machine_type: g1-small
